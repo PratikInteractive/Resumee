@@ -426,6 +426,9 @@ footer .social-icons {
         top: 3px;
     }
     /* Spotlight */
+    .dots-block {
+      bottom: 20%;
+    }
     .spotlight-section {
       height: calc(85dvh - 74px);
     }
