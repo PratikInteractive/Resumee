@@ -195,7 +195,7 @@ header {
 }
 /* Spotlight Section */
 .spotlight-section {
-  height: calc(100vh - 74px);
+  height: calc(100dvh - 74px);
   position: relative;
   overflow: hidden;
   background-image: url(../assets/spot-bg.jpg);
