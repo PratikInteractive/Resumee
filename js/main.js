@@ -17,36 +17,36 @@ $(document).ready(function() {
 
 
     // Header
-    // gsap.fromTo("header", {
-    //     opacity: 0,
-    //     y: -50,
-    // },{
-    //     y: 0,
-    //     opacity: 1,
-    //     delay: '0.5'
-    // });
+    gsap.fromTo("header", {
+        opacity: 0,
+        y: -50,
+    },{
+        y: 0,
+        opacity: 1,
+        delay: '0.5'
+    });
 
     // Spotlight
-    // gsap.fromTo(".spotlight-section" , {
-    //     y: '100%',
-    //     ease: "bounce",
-    // },{
-    //     y: 0,
-    //     delay: '0.5',
-    // })
+    gsap.fromTo(".spotlight-section" , {
+        y: '100%',
+        ease: "bounce",
+    },{
+        y: 0,
+        delay: '0.5',
+    })
 
     // Spotlight Text
-    // const myText = new SplitType('.spotlight-heading')
-    // gsap.fromTo('.char' ,{
-    //     y: 25,
-    //     opacity: 0
-    // },
-    // {
-    //     delay: 1,
-    //     opacity: 1,
-    //     y: 0,
-    //     stagger: 0.05,
-    // })
+    const myText = new SplitType('.spotlight-heading')
+    gsap.fromTo('.char' ,{
+        y: 25,
+        opacity: 0
+    },
+    {
+        delay: 1,
+        opacity: 1,
+        y: 0,
+        stagger: 0.05,
+    })
 
 });
 
