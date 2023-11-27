@@ -426,6 +426,9 @@ footer .social-icons {
         top: 3px;
     }
     /* Spotlight */
+    .spotlight-section {
+      height: calc(85dvh - 74px);
+    }
     .spotlight-heading .char ,
     .spotlight-heading{
         font-size: 50px;
